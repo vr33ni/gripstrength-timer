@@ -27,7 +27,7 @@ class TimerViewModel: ObservableObject {
     private var currentSoundIndex = 0
 
     let totalDuration = 60
-    let initialDelay = 3
+    let initialDelay = 5
 
     // Define the sequences
     let initialSequence: [SoundSequence] = [
@@ -102,7 +102,7 @@ class TimerViewModel: ObservableObject {
             currentSoundIndex = 0
             print("Starting sequence. Initial time: \(secondsPassed) seconds")
 
-            startInitialDelay()
+            startInitialDelay() //go to the hangboard
         }
     }
 
@@ -136,7 +136,6 @@ class TimerViewModel: ObservableObject {
                 print("Sequence completed. Total time: \(secondsPassed) seconds")
                 scheduleNotification(title: "Timer Completed", body: "The timer has completed its full sequence.", in: 1)
        
-               // stopSequence() // Stop the sequence after playing the beeps
             }
         } 
     }
