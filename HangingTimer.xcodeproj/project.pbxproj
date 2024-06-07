@@ -14,6 +14,14 @@
 		E5324A112C0F98AA00A97BC2 /* HangingTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5324A102C0F98AA00A97BC2 /* HangingTimerTests.swift */; };
 		E5324A1B2C0F98AA00A97BC2 /* HangingTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5324A1A2C0F98AA00A97BC2 /* HangingTimerUITests.swift */; };
 		E5324A1D2C0F98AA00A97BC2 /* HangingTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5324A1C2C0F98AA00A97BC2 /* HangingTimerUITestsLaunchTests.swift */; };
+		E5324A2A2C0F98C800A97BC2 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5324A292C0F98C800A97BC2 /* TimerViewModel.swift */; };
+		E5324A312C0FA34800A97BC2 /* stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5324A302C0FA34800A97BC2 /* stop.mp3 */; };
+		E5324A352C0FA35A00A97BC2 /* rest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5324A342C0FA35A00A97BC2 /* rest.mp3 */; };
+		E584C4E12C12342400052898 /* 7to1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E584C4E02C12342400052898 /* 7to1.mp3 */; };
+		E584C4E32C12349500052898 /* 321beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E584C4E22C12349500052898 /* 321beep.mp3 */; };
+		E584C4E52C123CB600052898 /* preparacion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E584C4E42C123CB600052898 /* preparacion.mp3 */; };
+		E584C4E72C12471D00052898 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E584C4E62C12471D00052898 /* beep.mp3 */; };
+		E584C4E92C12DAD100052898 /* 10brazil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E584C4E82C12DAD100052898 /* 10brazil.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,15 @@
 		E5324A162C0F98AA00A97BC2 /* HangingTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangingTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5324A1A2C0F98AA00A97BC2 /* HangingTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangingTimerUITests.swift; sourceTree = "<group>"; };
 		E5324A1C2C0F98AA00A97BC2 /* HangingTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangingTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5324A292C0F98C800A97BC2 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		E5324A302C0FA34800A97BC2 /* stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stop.mp3; path = ../../../../Downloads/stop.mp3; sourceTree = "<group>"; };
+		E5324A342C0FA35A00A97BC2 /* rest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rest.mp3; path = ../../../../Downloads/rest.mp3; sourceTree = "<group>"; };
+		E584C4D82C10C6B100052898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E584C4E02C12342400052898 /* 7to1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 7to1.mp3; path = ../../../../Downloads/7to1.mp3; sourceTree = "<group>"; };
+		E584C4E22C12349500052898 /* 321beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 321beep.mp3; path = ../../../../Downloads/321beep.mp3; sourceTree = "<group>"; };
+		E584C4E42C123CB600052898 /* preparacion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = preparacion.mp3; path = ../../../../Downloads/preparacion.mp3; sourceTree = "<group>"; };
+		E584C4E62C12471D00052898 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beep.mp3; path = ../../../../Downloads/beep.mp3; sourceTree = "<group>"; };
+		E584C4E82C12DAD100052898 /* 10brazil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 10brazil.mp3; path = ../../../../Downloads/10brazil.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +97,7 @@
 				E53249FD2C0F98A900A97BC2 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		E53249FD2C0F98A900A97BC2 /* Products */ = {
 			isa = PBXGroup;
@@ -94,10 +112,19 @@
 		E53249FE2C0F98A900A97BC2 /* HangingTimer */ = {
 			isa = PBXGroup;
 			children = (
+				E584C4D82C10C6B100052898 /* Info.plist */,
+				E584C4E42C123CB600052898 /* preparacion.mp3 */,
+				E584C4E82C12DAD100052898 /* 10brazil.mp3 */,
+				E584C4E22C12349500052898 /* 321beep.mp3 */,
+				E584C4E02C12342400052898 /* 7to1.mp3 */,
+				E584C4E62C12471D00052898 /* beep.mp3 */,
+				E5324A302C0FA34800A97BC2 /* stop.mp3 */,
 				E53249FF2C0F98A900A97BC2 /* HangingTimerApp.swift */,
 				E5324A012C0F98A900A97BC2 /* ContentView.swift */,
+				E5324A342C0FA35A00A97BC2 /* rest.mp3 */,
 				E5324A032C0F98AA00A97BC2 /* Assets.xcassets */,
 				E5324A052C0F98AA00A97BC2 /* Preview Content */,
+				E5324A292C0F98C800A97BC2 /* TimerViewModel.swift */,
 			);
 			path = HangingTimer;
 			sourceTree = "<group>";
@@ -231,7 +258,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5324A312C0FA34800A97BC2 /* stop.mp3 in Resources */,
+				E584C4E52C123CB600052898 /* preparacion.mp3 in Resources */,
+				E584C4E72C12471D00052898 /* beep.mp3 in Resources */,
+				E584C4E12C12342400052898 /* 7to1.mp3 in Resources */,
+				E5324A352C0FA35A00A97BC2 /* rest.mp3 in Resources */,
 				E5324A072C0F98AA00A97BC2 /* Preview Assets.xcassets in Resources */,
+				E584C4E32C12349500052898 /* 321beep.mp3 in Resources */,
+				E584C4E92C12DAD100052898 /* 10brazil.mp3 in Resources */,
 				E5324A042C0F98AA00A97BC2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5324A022C0F98A900A97BC2 /* ContentView.swift in Sources */,
+				E5324A2A2C0F98C800A97BC2 /* TimerViewModel.swift in Sources */,
 				E5324A002C0F98A900A97BC2 /* HangingTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,8 +457,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HangingTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 25S3D7DK63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HangingTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +487,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HangingTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 25S3D7DK63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HangingTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
