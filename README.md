@@ -6,21 +6,21 @@ The Grip Strength Timer app is designed for climbers and athletes who want to im
 
 ## Features
 
-    Simple Interface: The app features a user-friendly interface with a start button to initiate the timer.
+- Simple Interface: The app features a user-friendly interface with a start button to initiate the timer.
 
-    Audio Cues: Users receive audio cues indicating when to start hanging and when to rest, making it easy to follow the training regimen without needing to look at the screen.
+- Audio Cues: Users receive audio cues indicating when to start hanging and when to rest, making it easy to follow the training regimen without needing to look at the screen.
 
-    Customizable Intervals: Users can customize the hang and rest intervals according to their training preferences.
+- Customizable Intervals: Users can customize the hang and rest intervals according to their training preferences.
 
 ## Usage
 
-    Start Timer: Press the start button to initiate the timer.
+- Start Timer: Press the start button to initiate the timer.
 
-    Hang: When you hear the audio cue, begin hanging from the designated grip position.
+- Hang: When you hear the audio cue, begin hanging from the designated grip position.
 
-    Rest: After the hang interval, you'll hear another audio cue indicating the start of the rest period. Rest for the specified duration.
+- Rest: After the hang interval, you'll hear another audio cue indicating the start of the rest period. Rest for the specified duration.
 
-    Repeat: Continue hanging and resting according to the audio cues until the timer completes the full sequence.
+- Repeat: Continue hanging and resting according to the audio cues until the timer completes the full sequence.
 
 ## Development
 
