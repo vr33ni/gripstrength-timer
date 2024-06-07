@@ -22,6 +22,7 @@
 		E584C4E52C123CB600052898 /* preparacion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E584C4E42C123CB600052898 /* preparacion.mp3 */; };
 		E584C4E72C12471D00052898 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E584C4E62C12471D00052898 /* beep.mp3 */; };
 		E584C4E92C12DAD100052898 /* 10brazil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E584C4E82C12DAD100052898 /* 10brazil.mp3 */; };
+		E584C4EF2C135CB500052898 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E584C4EE2C135CB500052898 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E584C4E42C123CB600052898 /* preparacion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = preparacion.mp3; path = ../../../../Downloads/preparacion.mp3; sourceTree = "<group>"; };
 		E584C4E62C12471D00052898 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beep.mp3; path = ../../../../Downloads/beep.mp3; sourceTree = "<group>"; };
 		E584C4E82C12DAD100052898 /* 10brazil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 10brazil.mp3; path = ../../../../Downloads/10brazil.mp3; sourceTree = "<group>"; };
+		E584C4EE2C135CB500052898 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				E584C4D82C10C6B100052898 /* Info.plist */,
+				E584C4EE2C135CB500052898 /* README.md */,
 				E584C4E42C123CB600052898 /* preparacion.mp3 */,
 				E584C4E82C12DAD100052898 /* 10brazil.mp3 */,
 				E584C4E22C12349500052898 /* 321beep.mp3 */,
@@ -260,6 +263,7 @@
 			files = (
 				E5324A312C0FA34800A97BC2 /* stop.mp3 in Resources */,
 				E584C4E52C123CB600052898 /* preparacion.mp3 in Resources */,
+				E584C4EF2C135CB500052898 /* README.md in Resources */,
 				E584C4E72C12471D00052898 /* beep.mp3 in Resources */,
 				E584C4E12C12342400052898 /* 7to1.mp3 in Resources */,
 				E5324A352C0FA35A00A97BC2 /* rest.mp3 in Resources */,
